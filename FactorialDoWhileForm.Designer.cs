@@ -1,6 +1,6 @@
 ﻿namespace FactorialDoWhileToluA
 {
-    partial class Form1
+    partial class frmFactorialDoWhile
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lblMultiply = new System.Windows.Forms.Label();
+            this.lblAnswer = new System.Windows.Forms.Label();
+            this.lblStatement = new System.Windows.Forms.Label();
+            this.txtNumber = new System.Windows.Forms.TextBox();
+            this.lstFactorial = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(101, 95);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // lblMultiply
+            // 
+            this.lblMultiply.AutoSize = true;
+            this.lblMultiply.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMultiply.Location = new System.Drawing.Point(14, 134);
+            this.lblMultiply.Name = "lblMultiply";
+            this.lblMultiply.Size = new System.Drawing.Size(292, 19);
+            this.lblMultiply.TabIndex = 1;
+            this.lblMultiply.Text = "Multiply The Following Numbers Together";
+            // 
+            // lblAnswer
+            // 
+            this.lblAnswer.AutoSize = true;
+            this.lblAnswer.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswer.Location = new System.Drawing.Point(12, 294);
+            this.lblAnswer.Name = "lblAnswer";
+            this.lblAnswer.Size = new System.Drawing.Size(105, 19);
+            this.lblAnswer.TabIndex = 3;
+            this.lblAnswer.Text = "The Answer Is";
+            // 
+            // lblStatement
+            // 
+            this.lblStatement.AutoSize = true;
+            this.lblStatement.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatement.Location = new System.Drawing.Point(12, 60);
+            this.lblStatement.Name = "lblStatement";
+            this.lblStatement.Size = new System.Drawing.Size(164, 22);
+            this.lblStatement.TabIndex = 4;
+            this.lblStatement.Text = "Enter The Number";
+            // 
+            // txtNumber
+            // 
+            this.txtNumber.Location = new System.Drawing.Point(188, 60);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(82, 20);
+            this.txtNumber.TabIndex = 5;
+            // 
+            // lstFactorial
+            // 
+            this.lstFactorial.FormattingEnabled = true;
+            this.lstFactorial.Location = new System.Drawing.Point(40, 171);
+            this.lstFactorial.Name = "lstFactorial";
+            this.lstFactorial.Size = new System.Drawing.Size(230, 108);
+            this.lstFactorial.TabIndex = 6;
+            // 
+            // frmFactorialDoWhile
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(318, 352);
+            this.Controls.Add(this.lstFactorial);
+            this.Controls.Add(this.txtNumber);
+            this.Controls.Add(this.lblStatement);
+            this.Controls.Add(this.lblAnswer);
+            this.Controls.Add(this.lblMultiply);
+            this.Controls.Add(this.button1);
+            this.Name = "frmFactorialDoWhile";
+            this.Text = "Factorial Do While";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblMultiply;
+        private System.Windows.Forms.Label lblAnswer;
+        private System.Windows.Forms.Label lblStatement;
+        private System.Windows.Forms.TextBox txtNumber;
+        private System.Windows.Forms.ListBox lstFactorial;
     }
 }
 
