@@ -16,5 +16,10 @@ namespace FactorialDoWhileToluA
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

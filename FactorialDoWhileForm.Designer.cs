@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCalculate = new System.Windows.Forms.Button();
             this.lblMultiply = new System.Windows.Forms.Label();
             this.lblAnswer = new System.Windows.Forms.Label();
             this.lblStatement = new System.Windows.Forms.Label();
@@ -36,14 +36,15 @@
             this.lstFactorial = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCalculate
             // 
-            this.button1.Location = new System.Drawing.Point(101, 95);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCalculate.Location = new System.Drawing.Point(101, 95);
+            this.btnCalculate.Name = "btnCalculate";
+            this.btnCalculate.Size = new System.Drawing.Size(75, 23);
+            this.btnCalculate.TabIndex = 0;
+            this.btnCalculate.Text = "Calculate";
+            this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // lblMultiply
             // 
@@ -51,9 +52,9 @@
             this.lblMultiply.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMultiply.Location = new System.Drawing.Point(14, 134);
             this.lblMultiply.Name = "lblMultiply";
-            this.lblMultiply.Size = new System.Drawing.Size(292, 19);
+            this.lblMultiply.Size = new System.Drawing.Size(301, 19);
             this.lblMultiply.TabIndex = 1;
-            this.lblMultiply.Text = "Multiply The Following Numbers Together";
+            this.lblMultiply.Text = "Multiply The Following Numbers Together :";
             // 
             // lblAnswer
             // 
@@ -71,9 +72,9 @@
             this.lblStatement.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStatement.Location = new System.Drawing.Point(12, 60);
             this.lblStatement.Name = "lblStatement";
-            this.lblStatement.Size = new System.Drawing.Size(164, 22);
+            this.lblStatement.Size = new System.Drawing.Size(174, 22);
             this.lblStatement.TabIndex = 4;
-            this.lblStatement.Text = "Enter The Number";
+            this.lblStatement.Text = "Enter The Number :";
             // 
             // txtNumber
             // 
@@ -95,13 +96,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(318, 352);
+            this.ClientSize = new System.Drawing.Size(334, 352);
             this.Controls.Add(this.lstFactorial);
             this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.lblStatement);
             this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.lblMultiply);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCalculate);
             this.Name = "frmFactorialDoWhile";
             this.Text = "Factorial Do While";
             this.ResumeLayout(false);
@@ -111,7 +112,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Label lblMultiply;
         private System.Windows.Forms.Label lblAnswer;
         private System.Windows.Forms.Label lblStatement;
