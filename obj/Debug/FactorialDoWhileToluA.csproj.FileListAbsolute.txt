@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\bin\Debug\FactorialDoWhileToluA.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\bin\Debug\FactorialDoWhileToluA.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\bin\Debug\FactorialDoWhileToluA.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\obj\Debug\FactorialDoWhileToluA.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\obj\Debug\FactorialDoWhileToluA.frmFactorialDoWhile.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\obj\Debug\FactorialDoWhileToluA.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\obj\Debug\FactorialDoWhileToluA.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\obj\Debug\FactorialDoWhileToluA.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Unit 3 (Decisions)\FactorialDoWhileToluA\FactorialDoWhileToluA\obj\Debug\FactorialDoWhileToluA.pdb

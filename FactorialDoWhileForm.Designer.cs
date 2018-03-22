@@ -33,7 +33,7 @@
             this.lblAnswer = new System.Windows.Forms.Label();
             this.lblStatement = new System.Windows.Forms.Label();
             this.txtNumber = new System.Windows.Forms.TextBox();
-            this.lstFactorial = new System.Windows.Forms.ListBox();
+            this.lstFactorialNumber = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnCalculate
@@ -62,9 +62,9 @@
             this.lblAnswer.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnswer.Location = new System.Drawing.Point(12, 294);
             this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(105, 19);
+            this.lblAnswer.Size = new System.Drawing.Size(114, 19);
             this.lblAnswer.TabIndex = 3;
-            this.lblAnswer.Text = "The Answer Is";
+            this.lblAnswer.Text = "The Answer Is :";
             // 
             // lblStatement
             // 
@@ -83,13 +83,13 @@
             this.txtNumber.Size = new System.Drawing.Size(82, 20);
             this.txtNumber.TabIndex = 5;
             // 
-            // lstFactorial
+            // lstFactorialNumber
             // 
-            this.lstFactorial.FormattingEnabled = true;
-            this.lstFactorial.Location = new System.Drawing.Point(40, 171);
-            this.lstFactorial.Name = "lstFactorial";
-            this.lstFactorial.Size = new System.Drawing.Size(230, 108);
-            this.lstFactorial.TabIndex = 6;
+            this.lstFactorialNumber.FormattingEnabled = true;
+            this.lstFactorialNumber.Location = new System.Drawing.Point(40, 171);
+            this.lstFactorialNumber.Name = "lstFactorialNumber";
+            this.lstFactorialNumber.Size = new System.Drawing.Size(230, 108);
+            this.lstFactorialNumber.TabIndex = 6;
             // 
             // frmFactorialDoWhile
             // 
@@ -97,7 +97,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(334, 352);
-            this.Controls.Add(this.lstFactorial);
+            this.Controls.Add(this.lstFactorialNumber);
             this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.lblStatement);
             this.Controls.Add(this.lblAnswer);
@@ -117,7 +117,7 @@
         private System.Windows.Forms.Label lblAnswer;
         private System.Windows.Forms.Label lblStatement;
         private System.Windows.Forms.TextBox txtNumber;
-        private System.Windows.Forms.ListBox lstFactorial;
+        private System.Windows.Forms.ListBox lstFactorialNumber;
     }
 }
 
