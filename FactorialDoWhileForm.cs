@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Created by: First Last
- * Created on: Day-Month-Year
+ * Created by: Tolulope Adebayo
+ * Created on: 22-March-2018
  * Created for: ICS3U Programming
  * Daily Assignment – Day #20 - Factorial Do While
- * This program...
+ * This program calculates the factorial of a number given by the user
 */
 
 namespace FactorialDoWhileToluA
